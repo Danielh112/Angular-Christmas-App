@@ -1,0 +1,14 @@
+$red: #F5624D;
+$white: #FFFFFF;
+
+.countdown-container {
+    text-align: center;
+    margin:0 auto;
+    border-style: solid;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+    border-color: $white;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+}

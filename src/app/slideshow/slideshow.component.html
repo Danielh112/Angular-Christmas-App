@@ -1,0 +1,16 @@
+<mdb-carousel [isControls]="true" [animation]="'slide'" class="carousel-container" data-ride="carousel">
+
+    <mdb-carousel-item *ngFor="let slide of Slides" class="align-middle">
+        
+        <div class="slide view" *ngIf="!slide.video">
+          <img class="slide img-fluid" src="{{slide.source}}" alt="{{slide.name}}" [class.rotate-90]="slide.rotate">
+        </div>
+        <video class="video-fluid slide" autoplay loop muted *ngIf="slide.video">
+            <source src="{{slide.source}}" type="video/mp4" />
+        </video>
+
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">{{slide.name}}</h3>
+        </div>
+      </mdb-carousel-item>
+</mdb-carousel>

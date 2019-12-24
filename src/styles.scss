@@ -1,1 +1,80 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Varela+Round&display=swap');
+@import "~bootstrap/dist/css/bootstrap.css";
+
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
+$red: #F5624D;
+$white: #FFFFFF;
+
+html, body {
+    color: white !important; //_reboot.scss overwritting need to look at why
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: none;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size:14px;
+    line-height:20px;
+    font-weight:700;
+    text-transform:uppercase;
+    border: 2.5px solid;
+    padding:8px 20px;
+}
+
+.btn-prim {
+
+    @extend .btn;
+
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+
+    &.btn-theme {
+        background: none;
+        color: $white;
+        border-color: $white;
+    }
+
+    &.btn-theme:hover,
+    &.btn-theme:active {
+        color: $red;
+        background: $white;
+        border-color: $white;
+    }
+}
+
+.container {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.btn-label {
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
