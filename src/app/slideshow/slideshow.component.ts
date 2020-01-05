@@ -11,8 +11,8 @@ export interface Slide {
 const Slides:Slide[] = [
   {name: "Daniel get's Smarter",              date: "", source: "assets/images/slideshow/1.jpg"},
   {name: "Golf Day out",                      date: "", source: "assets/images/slideshow/2.jpg"},
-  {name: "Who's Competitive??",               date: "", video: true, source: "assets/images/slideshow/3.MOV"},
-  {name: "Dum Dum Dum",                       date: "", video: true, source: "assets/images/slideshow/4.MOV"},
+  //{name: "Who's Competitive??",               date: "", video: true, source: "assets/images/slideshow/3.MOV"},
+  //{name: "Dum Dum Dum",                       date: "", video: true, source: "assets/images/slideshow/4.MOV"},
   {name: "Charlotte and Daniel dress smart",  date: "", source: "assets/images/slideshow/5.jpg"},
   {name: "Booger",                            date: "", source: "assets/images/slideshow/6.jpg"},
   {name: "Daniel get's even smarter",         date: "", source: "assets/images/slideshow/7.jpg"},
@@ -32,7 +32,7 @@ const Slides:Slide[] = [
   {name: "Darts, Did I win?",                 date: "", source: "assets/images/slideshow/23.png"},
   {name: "The long Walk",                     date: "", source: "assets/images/slideshow/24.jpg"},
   {name: "Christmas Dinner",                  date: "", source: "assets/images/slideshow/25.jpg"},
-  {name: "Hungry Hungry",                     date: "", video: true, source: "assets/images/slideshow/26.MOV"},
+  //{name: "Hungry Hungry",                     date: "", video: true, source: "assets/images/slideshow/26.MOV"},
   {name: "Spider Bite",                       date: "", source: "assets/images/slideshow/27.jpg"},
   {name: "You Prettyyyy",                     date: "", source: "assets/images/slideshow/28.jpg"},
 ];
